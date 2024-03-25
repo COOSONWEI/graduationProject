@@ -1,0 +1,80 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+				// "navigationStyle": "custom" 
+			}
+		},
+		{
+			"path": "pages/sensorPower/index",
+			"style": {
+				"navigationBarTitleText": "设备耗能情况 "
+			}
+		},
+		{
+			"path": "pages/addNewSensor/index",
+			"style": {
+				"navigationBarTitleText": "添加新设备"
+			}
+		},
+		{
+			"path": "pages/notice/index",
+			"style": {
+				"navigationBarTitleText": "通知"
+			}
+		},
+		{
+			"path": "pages/personal/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		} 
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "首页",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	
+	},
+	"tabBar": {
+		"color": "#c4c4c5",
+		"selectedColor": "1d49c4",
+		"backgroundColor": "#0F2051",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				// "text": "首页",
+				"iconPath": "static/tabs/home-off.png",
+				"selectedIconPath": "static/tabs/home-on.png"
+			},
+			{
+				"pagePath": "pages/sensorPower/index",
+				// "text": "点单",
+				"iconPath": "static/tabs/workPower-off.png",
+				"selectedIconPath": "static/tabs/workPower-on.png"
+			},
+			{
+				"pagePath": "pages/addNewSensor/index",
+				// "text": "订单",
+				"iconPath": "static/tabs/add.png",
+				"selectedIconPath": "static/tabs/add.png"
+			},
+			{
+				"pagePath": "pages/notice/index",
+				// "text": "我的",
+				"iconPath": "static/tabs/notification-off.png",
+				"selectedIconPath": "static/tabs/notification-on.png"
+			},
+			{
+				"pagePath": "pages/personal/index",
+				// "text": "我的",
+				"iconPath": "static/tabs/profile-off.png",
+				"selectedIconPath": "static/tabs/profile-on.png"
+			}
+		]
+	}
+}
+ 
