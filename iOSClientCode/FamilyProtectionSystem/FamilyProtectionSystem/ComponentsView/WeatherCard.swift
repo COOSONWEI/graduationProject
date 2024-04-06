@@ -24,16 +24,16 @@ struct WeatherCard: View {
                                 .foregroundStyle(.white)
             
                             //天气情况
-                          Text("小雨")
+                          Text("阴天")
                                 .font(.system( size:20,design: .rounded))
                                 .bold()
                                 .foregroundStyle(.white)
                                 //室外温度
                             
-                            Text("将温度降低到16°C需要花费10元的电费")
+                            Text("将温度提高到20°C需要花费10元的电费")
                                 .font(.system(size: 12,design: .rounded))
                                 .foregroundStyle(.white)
-                            Text("18°C")
+                            Text("15°C")
                                 .font(.system(size:16,design: .rounded))
                                 .bold()
                                 .foregroundStyle(.white)
@@ -41,7 +41,7 @@ struct WeatherCard: View {
                         
                         Spacer()
                         
-                        Image("Rain")
+                        Image("DayClouds")
                             .resizable()
                             .frame(width: 128, height: 126)
                             .aspectRatio(contentMode: .fit)

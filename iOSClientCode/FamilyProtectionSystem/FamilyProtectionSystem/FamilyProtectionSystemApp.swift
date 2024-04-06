@@ -11,7 +11,8 @@ import SwiftUI
 struct FamilyProtectionSystemApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            ContentView()
         }
+        .environment(\.locale, Locale(identifier: "zh_CN")) // 设置语言环境为中文
     }
 }

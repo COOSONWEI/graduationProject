@@ -13,6 +13,17 @@
 		2FB52A8A2BBFCB5700477056 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB52A892BBFCB5700477056 /* Preview Assets.xcassets */; };
 		2FB52A972BBFD31500477056 /* WeatherCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB52A962BBFD31500477056 /* WeatherCard.swift */; };
 		2FB52A992BBFD33200477056 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB52A982BBFD33200477056 /* MenuBarView.swift */; };
+		2FB52A9B2BBFDDBE00477056 /* SwitchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB52A9A2BBFDDBE00477056 /* SwitchButton.swift */; };
+		2FB52A9D2BBFE59700477056 /* SensorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB52A9C2BBFE59700477056 /* SensorCard.swift */; };
+		2FB52AA12BBFF45E00477056 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB52AA02BBFF45E00477056 /* NavigationBarView.swift */; };
+		2FB52AA32BC00A2E00477056 /* TemperatureAndHumidityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB52AA22BC00A2E00477056 /* TemperatureAndHumidityDetailView.swift */; };
+		2FB52AA52BC013A700477056 /* FireDetialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB52AA42BC013A700477056 /* FireDetialView.swift */; };
+		2FB52AA72BC01D0000477056 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB52AA62BC01D0000477056 /* NotificationView.swift */; };
+		2FB52AA92BC01D6300477056 /* NotificationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB52AA82BC01D6300477056 /* NotificationCard.swift */; };
+		2FB52AAB2BC01E1D00477056 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB52AAA2BC01E1D00477056 /* Date+Ext.swift */; };
+		2FB52AAD2BC047F500477056 /* AlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB52AAC2BC047F500477056 /* AlertType.swift */; };
+		2FB52AAF2BC0537D00477056 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB52AAE2BC0537D00477056 /* ContentView.swift */; };
+		2FB52AB12BC0EBE900477056 /* LogCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB52AB02BC0EBE900477056 /* LogCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +34,17 @@
 		2FB52A892BBFCB5700477056 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2FB52A962BBFD31500477056 /* WeatherCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCard.swift; sourceTree = "<group>"; };
 		2FB52A982BBFD33200477056 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		2FB52A9A2BBFDDBE00477056 /* SwitchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchButton.swift; sourceTree = "<group>"; };
+		2FB52A9C2BBFE59700477056 /* SensorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorCard.swift; sourceTree = "<group>"; };
+		2FB52AA02BBFF45E00477056 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		2FB52AA22BC00A2E00477056 /* TemperatureAndHumidityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureAndHumidityDetailView.swift; sourceTree = "<group>"; };
+		2FB52AA42BC013A700477056 /* FireDetialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireDetialView.swift; sourceTree = "<group>"; };
+		2FB52AA62BC01D0000477056 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		2FB52AA82BC01D6300477056 /* NotificationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCard.swift; sourceTree = "<group>"; };
+		2FB52AAA2BC01E1D00477056 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		2FB52AAC2BC047F500477056 /* AlertType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertType.swift; sourceTree = "<group>"; };
+		2FB52AAE2BC0537D00477056 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2FB52AB02BC0EBE900477056 /* LogCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				2FB52A842BBFCB5600477056 /* HomeView.swift */,
+				2FB52AA22BC00A2E00477056 /* TemperatureAndHumidityDetailView.swift */,
+				2FB52AA42BC013A700477056 /* FireDetialView.swift */,
+				2FB52AA62BC01D0000477056 /* NotificationView.swift */,
+				2FB52AAE2BC0537D00477056 /* ContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -101,6 +127,8 @@
 		2FB52A932BBFCB7900477056 /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
+				2FB52AAA2BC01E1D00477056 /* Date+Ext.swift */,
+				2FB52AAC2BC047F500477056 /* AlertType.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -117,6 +145,11 @@
 			children = (
 				2FB52A962BBFD31500477056 /* WeatherCard.swift */,
 				2FB52A982BBFD33200477056 /* MenuBarView.swift */,
+				2FB52A9A2BBFDDBE00477056 /* SwitchButton.swift */,
+				2FB52A9C2BBFE59700477056 /* SensorCard.swift */,
+				2FB52AA02BBFF45E00477056 /* NavigationBarView.swift */,
+				2FB52AA82BC01D6300477056 /* NotificationCard.swift */,
+				2FB52AB02BC0EBE900477056 /* LogCard.swift */,
 			);
 			path = ComponentsView;
 			sourceTree = "<group>";
@@ -191,10 +224,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FB52AB12BC0EBE900477056 /* LogCard.swift in Sources */,
 				2FB52A852BBFCB5600477056 /* HomeView.swift in Sources */,
+				2FB52A9B2BBFDDBE00477056 /* SwitchButton.swift in Sources */,
+				2FB52AAF2BC0537D00477056 /* ContentView.swift in Sources */,
 				2FB52A992BBFD33200477056 /* MenuBarView.swift in Sources */,
+				2FB52AAB2BC01E1D00477056 /* Date+Ext.swift in Sources */,
+				2FB52AA52BC013A700477056 /* FireDetialView.swift in Sources */,
+				2FB52A9D2BBFE59700477056 /* SensorCard.swift in Sources */,
 				2FB52A972BBFD31500477056 /* WeatherCard.swift in Sources */,
+				2FB52AA32BC00A2E00477056 /* TemperatureAndHumidityDetailView.swift in Sources */,
+				2FB52AA12BBFF45E00477056 /* NavigationBarView.swift in Sources */,
 				2FB52A832BBFCB5600477056 /* FamilyProtectionSystemApp.swift in Sources */,
+				2FB52AA92BC01D6300477056 /* NotificationCard.swift in Sources */,
+				2FB52AAD2BC047F500477056 /* AlertType.swift in Sources */,
+				2FB52AA72BC01D0000477056 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

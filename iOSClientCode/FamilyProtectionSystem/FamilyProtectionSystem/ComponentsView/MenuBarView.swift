@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MenuBarView: View {
+   
     var body: some View {
         HStack {
             //个人头像
@@ -17,11 +18,11 @@ struct MenuBarView: View {
                 .frame(width: 48, height: 48)
                 .clipShape(.circle)
             VStack(alignment: .leading){
-                Text("Hellow WeiKKXin")
+                Text("您好, WeiKKXin")
                     .font(.system(.headline,design: .rounded))
                     .fontWeight(.bold)
                     
-                Text("5 devices on")
+                Text("5 设备 正在运行")
                     .font(.system(.subheadline,design: .rounded))
 
             }
