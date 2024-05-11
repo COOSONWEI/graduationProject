@@ -15,8 +15,17 @@ module.exports = appInfo => {
   
   //连接数据库
   config.mongoose = {
-    url: 'mongodb://localhost:27017/chabaidao',
+    url: 'mongodb://localhost:27017/familySystemData',
+    options: {},
   };
+
+   //取消安全威胁csrf的防范
+   config.security = {
+    csrf: {
+      enable: false
+    }
+  };
+
   // 跨域
   config.cors = {
     origin: '*',
@@ -30,6 +39,8 @@ module.exports = appInfo => {
   const userConfig = {
     // myAppName: 'egg',
   };
+
+
 
   return {
     ...config,

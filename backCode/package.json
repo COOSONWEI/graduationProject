@@ -7,9 +7,17 @@
     "declarations": true
   },
   "dependencies": {
+    "ali-oss": "^6.20.0",
+    "basic-auth": "^2.0.1",
     "cors": "^2.8.5",
     "egg": "^3.17.5",
-    "egg-scripts": "2"
+    "egg-cors": "^3.0.0",
+    "egg-mongoose": "^4.0.1",
+    "egg-onerror": "^2.2.0",
+    "egg-scripts": "2",
+    "egg-validate": "^2.0.2",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
     "egg-bin": "6",
