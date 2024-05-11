@@ -21,6 +21,7 @@ struct HomeView: View {
     @State private var airQualitySensor = false
     @State private var temperatureAndHumiditySensor = false
     var body: some View {
+        
         ZStack{
             Rectangle()
                 .foregroundStyle(Color("BG"))
@@ -101,6 +102,8 @@ struct HomeView: View {
        
        
     }
+  
+    
 }
 
 #Preview {

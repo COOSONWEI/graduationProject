@@ -9,7 +9,7 @@ import SwiftUI
 import Charts
 
 //火焰的数据结构
-struct FireData: Identifiable {
+struct FireData: Identifiable,Codable {
     var id = UUID().uuidString
     var date: Date
     var detectCount: Double
@@ -24,14 +24,16 @@ struct FireData: Identifiable {
 //图表
 struct DaliyFireDetectChart: View {
     
-    var data: [FireData] = [
-        FireData(month: 4, day: 1, detectCount: 1.0),
-        FireData(month: 4, day: 2, detectCount: 2.0),
-        FireData(month: 4, day: 3, detectCount: 0.0),
-        FireData(month: 4, day: 4, detectCount: 1.0),
-        FireData(month: 4, day: 5, detectCount: 3.0),
-        FireData(month: 4, day: 6, detectCount: 1.0)
-
+    @State var count = 0
+    @State var data: [FireData] = [
+        FireData(month: 5, day: 1, detectCount: 1.0),
+        FireData(month: 5, day: 2, detectCount: 2.0),
+        FireData(month: 5, day: 3, detectCount: 0.0),
+        FireData(month: 5, day: 4, detectCount: 1.0),
+        FireData(month: 5, day: 5, detectCount: 3.0),
+        FireData(month: 5, day: 6, detectCount: 1.0),
+        FireData(month: 5, day: 6, detectCount: 1.0),
+        FireData(month: 5, day: 12, detectCount: 1)
     ]
     
     var body: some View {
@@ -50,7 +52,10 @@ struct DaliyFireDetectChart: View {
                
             }
             .chartScrollableAxes(.horizontal)
-           
+            .onTapGesture {
+                count+=1
+                self.data[data.count-1].detectCount = Double(count)
+            }
            
              
         }
@@ -58,8 +63,6 @@ struct DaliyFireDetectChart: View {
         
     }
 }
-
-
 
 //火焰检测传感器详情页面
 struct FireDetialView: View {
@@ -119,6 +122,7 @@ struct FireDetialView: View {
                         VStack(alignment:.leading,spacing: 16){
                             LogCard(imageName: "fireSensor", date: diyDate(specificDate: "2024-4-6 13:24:38"),title: "传感器断开连接",detial: "传感器在2024-4-6 13:24:38正常断开连接,无需担心对设备造成不良影响")
                             LogCard(imageName: "fireSensor", date: diyDate(specificDate: "2024-4-6 10:20:46"),title: "传感器接通电源",detial: "传感器于2024-4-6 10:20:46接通电源，目前工作情况正常")
+                            
                             LogCard(imageName: "fireSensor", date: diyDate(specificDate: "2024-4-5 22:30:59"),title: "传感器断开连接",detial: "传感器在2024-4-5 22:30:59，没有正常断开连接，还请检测设备安全情况")
                             LogCard(imageName: "fireSensor", date: diyDate(specificDate: "2024-4-5 22:30:59"),title: "传感器打开",detial: "传感器在2024-4-5 22:30:59被您在手机上开启了工作电源，目前设备运行状态正常")
                             LogCard(imageName: "fireSensor", date: diyDate())

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F78B5302BEFD443001AE0CE /* basicURl+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F78B52F2BEFD443001AE0CE /* basicURl+Ext.swift */; };
+		2F78B5322BF00CDD001AE0CE /* FireSensorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F78B5312BF00CDD001AE0CE /* FireSensorViewModel.swift */; };
 		2FB52A832BBFCB5600477056 /* FamilyProtectionSystemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB52A822BBFCB5600477056 /* FamilyProtectionSystemApp.swift */; };
 		2FB52A852BBFCB5600477056 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB52A842BBFCB5600477056 /* HomeView.swift */; };
 		2FB52A872BBFCB5700477056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB52A862BBFCB5700477056 /* Assets.xcassets */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F78B52F2BEFD443001AE0CE /* basicURl+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "basicURl+Ext.swift"; sourceTree = "<group>"; };
+		2F78B5312BF00CDD001AE0CE /* FireSensorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireSensorViewModel.swift; sourceTree = "<group>"; };
 		2FB52A7F2BBFCB5600477056 /* FamilyProtectionSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FamilyProtectionSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FB52A822BBFCB5600477056 /* FamilyProtectionSystemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyProtectionSystemApp.swift; sourceTree = "<group>"; };
 		2FB52A842BBFCB5600477056 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -113,6 +117,7 @@
 		2FB52A912BBFCB6B00477056 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				2F78B5312BF00CDD001AE0CE /* FireSensorViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -136,6 +141,7 @@
 		2FB52A942BBFCB8F00477056 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				2F78B52F2BEFD443001AE0CE /* basicURl+Ext.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -237,7 +243,9 @@
 				2FB52AA12BBFF45E00477056 /* NavigationBarView.swift in Sources */,
 				2FB52A832BBFCB5600477056 /* FamilyProtectionSystemApp.swift in Sources */,
 				2FB52AA92BC01D6300477056 /* NotificationCard.swift in Sources */,
+				2F78B5322BF00CDD001AE0CE /* FireSensorViewModel.swift in Sources */,
 				2FB52AAD2BC047F500477056 /* AlertType.swift in Sources */,
+				2F78B5302BEFD443001AE0CE /* basicURl+Ext.swift in Sources */,
 				2FB52AA72BC01D0000477056 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
